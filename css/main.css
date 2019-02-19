@@ -89,7 +89,7 @@ header h2 {
     padding: 80px 0;
 }
 
-#about h2 {
+ h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
     padding-left: 50px;
@@ -134,61 +134,114 @@ header h2 {
 
 /****** CONTACT ******/
 
-#contact {
+.contact {
     background: #ebebeb;
 }
 
-#contact .full-width {
+.contact .full-width {
     padding: 110px 0;
 }
 
-#contact-img {
+.contact-img {
     margin-left: 25px;
     border: 12px solid #fff;
 }
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+.contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
     padding-left: 115px;
 }
 
-#contact #envelope {
+.contact #envelope {
     padding: 0 10px 0 115px;
 }
 
-#contact h2 {
+.contact h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
     line-height: 44px;
 }
 
-#contact #email-header {
+.contact #email-header {
     font-size: 32px;
     font-weight: lighter;
     line-height: 44px;
     margin: -30px 0 5px 0;
 }
 
-#contact #socialmedia-header {
+.contact #socialmedia-header {
     font-weight: bold;
     font-size: 29px;
     line-height: 44px;
     margin: 40px 0 0 0;
 }
 
-#contact a {
+.contact a {
     text-decoration: none;
     color: #c49075;
     font-weight: bold;
     font-size: 28px;
 }
 
-#contact ul {
+.contact ul {
     list-style: none;
 }
-#contact ul li {
+
+.contact ul li {
      display: inline-block;
 }
-#contact ul img {
+
+.contact ul img {
     font-size: 32px;
     padding-right: 48px;
+}
+
+/****** END OF HOMEPAGE ******/
+
+
+/* ABOUT PAGE STYLES */
+
+
+/****** HEADER ******/
+
+#about-header {
+    height: 800px;
+    background: url('../img/about-header.jpg');
+    background-size: cover;
+    /* background-position: center bottom; */
+}
+
+#logo {
+    color: #72A116;
+}
+
+#header-blurb {
+    float: right;
+    text-align: right;
+}
+
+/****** ABOUT ******/
+
+#about-me {
+    padding-top: 80px;
+}
+
+#about-me p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding: 0 50px 50px 20px;
+}
+
+/****** CONTACT ******/
+
+#contact-me {
+    clear: both;
+    text-align: center;
+    background: #F5F5F5;
+    height: 150px;
+}
+
+#footer-blurb {
+    padding-top: 70px;
+    font-family: 'Lora', serif;
 }
